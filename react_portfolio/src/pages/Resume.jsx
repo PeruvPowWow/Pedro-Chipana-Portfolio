@@ -7,7 +7,7 @@ function Resume() {
     return (
         <section>
             <h2>Resume</h2>
-            <p>Download My<a href="file:///Users/pedrochipana/Downloads/Pedro%20Chipana%20Resume%202024.pdf" download>Resume</a></p>
+            <p>Download My<a href="file:///Users/pedrochipana/Downloads/Pedro%20Chipana%20Resume%202024.pdf" download> Resume</a></p>
         <div>
             <h3>Front-end Proficiencies</h3>
             <ul>
