@@ -4,10 +4,16 @@ import Project from "../components/Project";
 function Portfolio() {
   const projects = [
       {
-          title: "Project Title",
-          image: "project-image.jpg",
-          deployedLink: "https://example.com",
-          repoLink: "https://github.com/example"
+          title: "HTML/CSS Code Project",
+          image: "/Users/pedrochipana/Desktop/BOOTCAMP/Pedro-Chipana-Portfolio/react_portfolio/src/assets/images/digital-marketing-meeting.jpg",
+          deployedLink: "https://peruvpowwow.github.io/homework-challenge-1/",
+          repoLink: "https://github.com/PeruvPowWow/homework-challenge-1/tree/main"
+      },
+      {
+            title: "Employee Payroll Tracker",
+            image: "/Users/pedrochipana/Desktop/BOOTCAMP/Pedro-Chipana-Portfolio/react_portfolio/src/assets/images/Employment Payroll Tracker.jpg",
+            deployedLink: "https://peruvpowwow.github.io/Employment-Payroll-Tracker/",
+            repoLink: "https://github.com/PeruvPowWow/Employment-Payroll-Tracker"
       },
   ];
 
