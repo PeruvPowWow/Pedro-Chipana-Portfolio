@@ -21,6 +21,12 @@ function Portfolio() {
             deployedLink: "https://peruvpowwow.github.io/My-First-Blog/",
             repoLink: "https://github.com/PeruvPowWow/My-First-Blog"
     },
+    {
+            title: "ProjectPAL",
+            image: "/Users/pedrochipana/Desktop/BOOTCAMP/Pedro-Chipana-Portfolio/react_portfolio/src/assets/images/projectpalheader-dark.jpg",
+            deployedLink: "https://peruvpowwow.github.io/ProjectPal/",
+            repoLink: "https://github.com/PeruvPowWow/ProjectPal"
+    },
   ];
 
   return (
