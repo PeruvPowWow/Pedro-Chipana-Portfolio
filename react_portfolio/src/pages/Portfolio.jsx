@@ -15,6 +15,12 @@ function Portfolio() {
             deployedLink: "https://peruvpowwow.github.io/Employment-Payroll-Tracker/",
             repoLink: "https://github.com/PeruvPowWow/Employment-Payroll-Tracker"
       },
+    {
+            title: "My First Blog",
+            image: "/Users/pedrochipana/Desktop/BOOTCAMP/Pedro-Chipana-Portfolio/react_portfolio/src/assets/images/100-web-apis-challenge-demo.gif",
+            deployedLink: "https://peruvpowwow.github.io/My-First-Blog/",
+            repoLink: "https://github.com/PeruvPowWow/My-First-Blog"
+    },
   ];
 
   return (
