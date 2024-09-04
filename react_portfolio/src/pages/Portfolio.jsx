@@ -10,7 +10,7 @@ function Portfolio() {
     {
       title: "HTML/CSS Code Project",
       image: image1,
-      deployedLink: "https://peruvpowwow.github.io/homework-challenge-1/",
+      deployedLink: "https://peruvpowwow.github.io/HTML-CSS-Code-Project/",
       repoLink: "https://github.com/PeruvPowWow/homework-challenge-1/tree/main",
     },
     {
@@ -28,7 +28,7 @@ function Portfolio() {
     {
       title: "ProjectPAL",
       image: image4,
-      deployedLink: "https://peruvpowwow.github.io/ProjectPal/",
+      deployedLink: "https://peruvpowwow.github.io/ProjectPAL/",
       repoLink: "https://github.com/PeruvPowWow/ProjectPal",
     },
   ];
