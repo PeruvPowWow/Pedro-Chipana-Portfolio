@@ -37,7 +37,12 @@ function Portfolio() {
     <section>
       <h2>Portfolio</h2>
       {projects.map((project, index) => (
-        <Project key={index} project={project} />
+        <Project
+           key={index}
+           title={project.title}
+           image={project.image}
+           deployedLink={project.deployedLink}
+           repoLink={project.repoLink} />
       ))}
     </section>
   );
