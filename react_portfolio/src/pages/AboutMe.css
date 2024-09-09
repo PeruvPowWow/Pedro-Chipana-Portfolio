@@ -1,16 +1,32 @@
-/* AboutMe.css */
-.about-me {
+/* Centering content and styling */
+.about-me-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers horizontally */
+    text-align: center;
     padding: 2rem;
-    max-width: 800px;
-    margin: 0 auto;
   }
   
-  .about-me p {
-    margin-bottom: 1.5rem;
+  .about-me-section img {
+    max-width: 100%; /* Responsive image size */
+    height: auto;
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 1rem;
+  }
+  
+  .about-me-section p {
+    max-width: 800px; /* Limit paragraph width */
     line-height: 1.6;
   }
   
-  .about-me .paragraph {
-    margin-bottom: 1.5rem;
+  /* Additional styles for responsiveness */
+  @media (max-width: 768px) {
+    .about-me-section {
+      padding: 1rem;
+    }
+  
+    .about-me-section img {
+      width: 80%;
+    }
   }
   

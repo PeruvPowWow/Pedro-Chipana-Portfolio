@@ -1,0 +1,35 @@
+/* Footer styling */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333; /* Matches header background */
+    color: #fff;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+  .footer a:hover {
+    color: #ddd;
+  }
+  
+  /* Add styles for icons */
+  .footer .social-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer .social-icons a {
+    margin: 0 0.5rem;
+  }
+  
+  /* Example icon styles */
+  .footer .social-icons i {
+    font-size: 1.5rem; /* Adjust size as needed */
+  }
+  
