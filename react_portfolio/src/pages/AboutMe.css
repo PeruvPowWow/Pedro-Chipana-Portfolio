@@ -1,0 +1,16 @@
+/* AboutMe.css */
+.about-me {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-me p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  .about-me .paragraph {
+    margin-bottom: 1.5rem;
+  }
+  

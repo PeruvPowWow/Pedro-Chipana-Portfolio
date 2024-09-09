@@ -1,11 +1,19 @@
-import React from "react";
-import Navigation from "./Navigation"; 
+
+import { Link } from 'react-router-dom';
+import './Header.css';
 
 function Header() {
   return (
-    <header>
-      <h1> Pedro Chipana</h1>
-      <Navigation />
+    <header className="header">
+      <div className="name">Pedro Chipana</div>
+      <nav>
+        <ul className="nav-links">
+          <li><Link to="/">About Me</Link></li>
+          <li><Link to="/portfolio">Portfolio</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/resume">Resume</Link></li>
+        </ul>
+      </nav>
     </header>
   );
 }
