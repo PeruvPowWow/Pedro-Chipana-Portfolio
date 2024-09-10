@@ -1,32 +1,35 @@
-/* Centering content and styling */
 .about-me-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centers horizontally */
-    text-align: center;
-    padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 4rem !important; /* Enforce padding with !important */
+  margin: 0 auto; 
+  max-width: 900px; /* Limit the overall width of the section */
+  box-sizing: border-box; /* Ensure padding is included in the width calculation */
+}
+
+.about-me-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.about-me-section p {
+  max-width: 800px;
+  line-height: 1.6;
+  margin: 1rem 0;
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 768px) {
+  .about-me-section {
+      padding: 1rem 2rem !important; /* Adjust padding for smaller screens */
+      max-width: 90%; /* Set the section width as a percentage for smaller screens */
   }
-  
+
   .about-me-section img {
-    max-width: 100%; /* Responsive image size */
-    height: auto;
-    border-radius: 8px; /* Rounded corners */
-    margin-bottom: 1rem;
-  }
-  
-  .about-me-section p {
-    max-width: 800px; /* Limit paragraph width */
-    line-height: 1.6;
-  }
-  
-  /* Additional styles for responsiveness */
-  @media (max-width: 768px) {
-    .about-me-section {
-      padding: 1rem;
-    }
-  
-    .about-me-section img {
       width: 80%;
-    }
   }
-  
+}

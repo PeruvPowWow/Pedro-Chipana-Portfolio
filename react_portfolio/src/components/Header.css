@@ -1,40 +1,43 @@
-/* Header container */
 .header {
   display: flex;
-  justify-content: space-between; /* Ensures that items are spaced out */
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: #333; /* Choose a background color that fits with your theme */
-  color: #f1f1f1; /* Light color for the text */
-  position: sticky; /* Keeps header at the top */
-  top: 0;
-  width: 100%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  justify-content: space-between; /* Distribute space between logo and nav links */
+  align-items: center; /* Vertically center items */
+  padding: 0rem 1rem;
+  background-color: #706767; /* Background color */
+  position: fixed; /* Fix header to the top */
+  width: 100%; /* Ensure header spans the full width */
+  top: 0; /* Align header to the top */
+  left: 0; /* Align header to the left */
+  z-index: 1000; /* Ensure header is above other content */
+  height: auto;
 }
 
-/* Styling for the name/logo */
 .header .logo {
-  font-size: 2.5rem; /* Adjust the font size as needed */
-  font-weight: bold; /* Makes the text bold */
-  color: #ff6347; /* Choose a color that stands out */
+  font-size: 1.4rem; /* Font size for your name */
+  color: #2c2a29; /* Color for your name */
+  margin: 0;
 }
 
-/* Navigation links container */
 .header .nav-links {
   display: flex;
-  gap: 1.5rem; /* Space between links */
-  list-style: none; /* Removes bullet points */
-  margin: 0;
-  padding: 0;
+  gap: 2rem; /* Space between links */
+  list-style-type: none; /* Remove bullet points */
+  margin-right: 3rem; /* Remove default margin */
+  padding: 0; /* Remove default padding */
 }
 
-/* Styling for the navigation links */
 .header .nav-links a {
-  color: #f1f1f1; /* Light color for the links */
-  font-size: 1.2rem; /* Adjust the font size for the links */
+  color: #333; /* Color for the links */
+  font-size: 2rem; /* Font size for the links */
   text-decoration: none;
+  white-space: nowrap; /* Prevent text from wrapping */
 }
 
 .header .nav-links a:hover {
-  color: #1238c1; /* Change the color on hover */
+  color: #ddd; /* Change color on hover */
 }
+
+main {
+  margin-top: 4.5rem; /* Ensure content is below the header */
+}
+
