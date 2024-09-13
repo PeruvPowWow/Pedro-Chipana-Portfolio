@@ -1,12 +1,13 @@
 // import React from "react";
 
 import './AboutMe.css';
+import profileImage from '../assets/images/profile.jpg'; // Import the image
 
 function AboutMe() {
     return (
         <section className="about-me">
             <h2>About Me</h2>
-            <img src="/images/profile.jpg" alt="Pedro Chipana" />
+            <img src={profileImage} alt="Pedro Chipana" />
             <p className="paragraph">
                 Hello! My name is Pedro, and I graduated from the University of Utah with a focus on pursuing a career in the health industry. However, unforeseen circumstances necessitated a shift in my career path. Over the past few years, I have worked in the technology sector, primarily in sales. Although I had not initially envisioned a long-term career in this field, I have consistently been intrigued by both front-end and back-end development processes. I believe now is the opportune time to embark on this new journey and further explore my passion for development.
             </p>
