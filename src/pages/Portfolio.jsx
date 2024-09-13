@@ -4,7 +4,7 @@ import image1 from "../assets/images/digital-marketing-meeting.jpg";
 import image2 from "../assets/images/Employment Payroll Tracker.jpg";
 import image3 from "../assets/images/100-web-apis-challenge-demo.gif";
 import image4 from "../assets/images/projectpalheader-dark.jpg";
-import './portfolio.css';
+import './Portfolio.css';
 
 function Portfolio() {
   const projects = [
